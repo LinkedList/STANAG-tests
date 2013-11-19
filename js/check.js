@@ -2,6 +2,7 @@ $(document).ready(function () {
 	//countdown setting
 	$('#countdown').countdown({
 		until: "+45m",
+		format: "MS",
 		onExpiry: function () {
 			$(":submit").prop('disabled', 'true');
 			check_answers();
@@ -17,7 +18,6 @@ $(document).ready(function () {
 	function check_answers() {
 		$(":checked").each(function () {
 			_this = $(this);
-			console.log(_this.attr('correct'));
 			if(_this.attr('correct')!= undefined) {
 				_this.closest('li').addClass('alert-success');
 			} else {
