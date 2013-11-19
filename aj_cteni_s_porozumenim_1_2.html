@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Moodle Quiz XHTML Export</title>
+<style> 
+   .question {
+     border: 1px solid #ddd;
+     margin: 5px;
+     padding: 3px;
+     }
+ 
+   .question h3 {
+     font-weight: normal;
+     font-size: 125%;
+   }
+ 
+   .question ul {
+     list-style-type: none;
+   } 
+   .question ul li p{
+      display:inline-block;
+   }
+ </style>
+
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/check.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/jquery.countdown.css"> 
+  <script type="text/javascript" src="./js/jquery.countdown.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"> 
+</head>
+<body class="container">
+<div id="countdown" style="position:fixed; top:30px; right: 30px; width:200px"></div>
+<h1>Čtení s porozuměním AJ, úroveň 1-2</h1>
+<form action="...REPLACE ME..." method="post">
+
+<!-- question: 156364  name: 1. A notice at school -->
+<div class="question">
+<h3>1. A notice at school</h3>
+<p>The building is closed from June to August for the summer holidays.</p>
+<p><strong>The building is closed in___________.</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156364" type="radio" value="&lt;p&gt;the winter&lt;/p&gt;" /><p>the winter<p></li>
+  <li><input correct name="quest_156364" type="radio" value="&lt;p&gt;July&lt;/p&gt;" /><p>July</p></li>
+  <li><input name="quest_156364" type="radio" value="&lt;p&gt;the spring&lt;/p&gt;" /><p>the spring</p></li>
+  <li><input name="quest_156364" type="radio" value="&lt;p&gt;October&lt;/p&gt;" /><p>October</p></li>
+</ul>
+</div>
+
+<!-- question: 156365  name: 2. A notice at school -->
+<div class="question">
+<h3>2. A notice at school</h3>
+<p>No trip today because of rain.</p>
+<p><strong>You will NOT go because of ___________.</strong></p></p>
+<ul class="multichoice">
+  <li><input correct name="quest_156365" type="radio" value="&lt;p&gt;weather&lt;/p&gt;" /><p>weather</p></li>
+  <li><input name="quest_156365" type="radio" value="&lt;p&gt;illness&lt;/p&gt;" /><p>illness</p></li>
+  <li><input name="quest_156365" type="radio" value="&lt;p&gt;danger&lt;/p&gt;" /><p>danger</p></li>
+  <li><input name="quest_156365" type="radio" value="&lt;p&gt;time&lt;/p&gt;" /><p>time</p></li>
+</ul>
+</div>
+
+<!-- question: 156366  name: 3. A sign in a public place -->
+<div class="question">
+<h3>3. A sign in a public place</h3>
+<p>Jim Hawkins Electronic Repair All Types 723-7506</p>
+<p><strong>Call this number ___________________.</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156366" type="radio" value="&lt;p&gt;if you want a typewriter&lt;/p&gt;" /><p>if you want a typewriter</p></li>
+  <li><input name="quest_156366" type="radio" value="&lt;p&gt;if you are Jim Hawkins&lt;/p&gt;" /><p>if you are Jim Hawkins</p></li>
+  <li><input name="quest_156366" type="radio" value="&lt;p&gt;if you want to buy a radio&lt;/p&gt;" /><p>if you want to buy a radio</p></li>
+  <li><input correct name="quest_156366" type="radio" value="&lt;p&gt;if your TV doesn’t work&lt;/p&gt;" /><p>if your TV doesn’t work</p></li>
+</ul>
+</div>
+
+
+<!-- question: 156367  name: 4. From an advertisement -->
+<div class="question">
+<h3>4. From an advertisement</h3>
+<p>Assistant teachers needed. Early Learning Center of St. Mark’s Church. Training available for loving, friendly, child-oriented instructors. Apply in person at 27 Market Street (behind the shopping center).</p>
+<p><strong>What is this advertisement about?</strong></p></p>
+<ul class="multichoice">
+  <li><input correct name="quest_156367" type="radio" value="&lt;p&gt;looking for new teachers&lt;/p&gt;" /><p>looking for new teachers</p></li>
+  <li><input name="quest_156367" type="radio" value="&lt;p&gt;training shop assistants&lt;/p&gt;" /><p>training shop assistants</p></li>
+  <li><input name="quest_156367" type="radio" value="&lt;p&gt;opening a new center&lt;/p&gt;" /><p>opening a new center</p></li>
+  <li><input name="quest_156367" type="radio" value="&lt;p&gt;learning about a church&lt;/p&gt;" /><p>learning about a church</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156368  name: 5.  A note in a kitchen -->
+<div class="question">
+<h3>5.  A note in a kitchen</h3>
+<p>James, We got an invitation to the Ogdens’ cottage for the weekend. We’ll be back on Monday. Can you take care of the dog? There’s plenty of dog food, but I can’t find the can opener. Sorry! (Check your sister’s room.)  Be good. Love,                        Mom</p>
+<p><strong>What does the mother want her son to do?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156368" type="radio" value="&lt;p&gt;Buy a can of dog food.&lt;/p&gt;" /><p>Buy a can of dog food.</p></li>
+  <li><input correct name="quest_156368" type="radio" value="&lt;p&gt;Look after the family pet.&lt;/p&gt;" /><p>Look after the family pet.</p></li>
+  <li><input name="quest_156368" type="radio" value="&lt;p&gt;Take his sister to the Ogdens’.&lt;/p&gt;" /><p>Take his sister to the Ogdens’.</p></li>
+  <li><input name="quest_156368" type="radio" value="&lt;p&gt;Come back home on Monday.&lt;/p&gt;" /><p>Come back home on Monday.</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156369  name: 6. From a newspaper advertisement -->
+<div class="question">
+<h3>6. From a newspaper advertisement</h3>
+<p>Beautiful 4-bedroom villa in the north of France for sale. In wonderful condition and in beautiful surroundings. Plenty of trees and two ponds on the property. Call for details. 800-988-7693.</p>
+<p><strong>What is this ad offering?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156369" type="radio" value="&lt;p&gt;a natural product&lt;/p&gt;" /><p>a natural product</p></li>
+  <li><input name="quest_156369" type="radio" value="&lt;p&gt;a cottage to rent&lt;/p&gt;" /><p>a cottage to rent</p></li>
+  <li><input name="quest_156369" type="radio" value="&lt;p&gt;a trip to France&lt;/p&gt;" /><p>a trip to France</p></li>
+  <li><input correct name="quest_156369" type="radio" value="&lt;p&gt;a house to buy&lt;/p&gt;" /><p>a house to buy</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156370  name: 7.  An SMS -->
+<div class="question">
+<h3>7.  An SMS</h3>
+<p>Are you still planning to come to Prague on Saturday? If so, what time can we meet? Barbara.</p>
+<p><strong>Barbara wants to _______________.</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156370" type="radio" value="&lt;p&gt;take a trip&lt;/p&gt;" /><p>take a trip</p></li>
+  <li><input name="quest_156370" type="radio" value="&lt;p&gt;give a tour&lt;/p&gt;" /><p>give a tour</p></li>
+  <li><input correct name="quest_156370" type="radio" value="&lt;p&gt;see a friend&lt;/p&gt;" /><p>see a friend</p></li>
+  <li><input name="quest_156370" type="radio" value="&lt;p&gt;change a plan&lt;/p&gt;" /><p>change a plan</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156371  name: 8. Instructions -->
+<div class="question">
+<h3>8. Instructions</h3>
+<p>Adult dosage: 1 teaspoon. Do not exceed four teaspoons daily! Discontinue use after ten days. If conditions persist, see a physician. Not for children under six years of age.</p>
+<p><strong>Where would you see this information?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156371" type="radio" value="&lt;p&gt;on a videocassette&lt;/p&gt;" /><p>on a videocassette</p></li>
+  <li><input name="quest_156371" type="radio" value="&lt;p&gt;in a textbook&lt;/p&gt;" /><p>in a textbook</p></li>
+  <li><input correct name="quest_156371" type="radio" value="&lt;p&gt;on a medicine bottle&lt;/p&gt;" /><p>on a medicine bottle</p></li>
+  <li><input name="quest_156371" type="radio" value="&lt;p&gt;in a cookbook&lt;/p&gt;" /><p>in a cookbook</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156372  name: 9. Public notice in a newspaper -->
+<div class="question">
+<h3>9. Public notice in a newspaper</h3>
+<p>Are you over 65, or unable to do your shopping because of medical reasons? If so, the Huntingdon Community Aid Program, in cooperation with Jones’s Market, will deliver your phone orders without charge. Call 123-4567 for more information.</p>
+<p><strong>This program helps old people to ___________.</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156372" type="radio" value="&lt;p&gt;find medical help&lt;/p&gt;" /><p>find medical help</p></li>
+  <li><input correct name="quest_156372" type="radio" value="&lt;p&gt;shop from their homes&lt;/p&gt;" /><p>shop from their homes</p></li>
+  <li><input name="quest_156372" type="radio" value="&lt;p&gt;get food for free&lt;/p&gt;" /><p>get food for free</p></li>
+  <li><input name="quest_156372" type="radio" value="&lt;p&gt;serve the community&lt;/p&gt;" /><p>serve the community</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156373  name: 10. A message on a door -->
+<div class="question">
+<h3>10. A message on a door</h3>
+<p>Dear Mr. and Mrs. Smith, your music is very loud. I can hear it very clearly in my apartment from morning until night. Could you please turn it down? Thank you, Fred Jones</p>
+<p><strong>What does Fred Jones want to do?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156373" type="radio" value="&lt;p&gt;learn about a good band&lt;/p&gt;" /><p>learn about a good band</p></li>
+  <li><input name="quest_156373" type="radio" value="&lt;p&gt;give an invitation to a party&lt;/p&gt;" /><p>give an invitation to a party</p></li>
+  <li><input correct name="quest_156373" type="radio" value="&lt;p&gt;tell his neighbours about noise&lt;/p&gt;" /><p>tell his neighbours about noise</p></li>
+  <li><input name="quest_156373" type="radio" value="&lt;p&gt;get information about a concert&lt;/p&gt;" /><p>get information about a concert</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156374  name: 11. From an advertisement -->
+<div class="question">
+<h3>11. From an advertisement</h3>
+<p>Come to lovely San Monito! A place rich in culture, legendary sights and fun for everyone. All you have to do is set foot outside your hotel door. Come to San Monito! We’ll make sure you remember the River Walk, and the theme parks, and the food, and the music.</p>
+<p><strong>Who is advertising?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156374" type="radio" value="&lt;p&gt;a photo studio&lt;/p&gt;" /><p>a photo studio</p></li>
+  <li><input correct name="quest_156374" type="radio" value="&lt;p&gt;a tourism office&lt;/p&gt;" /><p>a tourism office</p></li>
+  <li><input name="quest_156374" type="radio" value="&lt;p&gt;a dating service&lt;/p&gt;" /><p>a dating service</p></li>
+  <li><input name="quest_156374" type="radio" value="&lt;p&gt;a real estate company&lt;/p&gt;" /><p>a real estate company</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156375  name: 12. From a family magazine -->
+<div class="question">
+<h3>12. From a family magazine</h3>
+<p>Here’s a great way for kids of all ages to enjoy themselves on car trips: Keep a family vacation journal. It doesn’t have to be complicated. In fact, the simpler it is, the better. First, pack some crayons, coloured pencils or markers, and notebooks. Each day tell the kids to draw a picture of something or someone they saw.</p>
+<p><strong>This paragraph tells you__________.</strong></p></p>
+<ul class="multichoice">
+  <li><input correct name="quest_156375" type="radio" value="&lt;p&gt;how to have fun on long trips&lt;/p&gt;" /><p>how to have fun on long trips</p></li>
+  <li><input name="quest_156375" type="radio" value="&lt;p&gt;how to book a better holiday&lt;/p&gt;" /><p>how to book a better holiday</p></li>
+  <li><input name="quest_156375" type="radio" value="&lt;p&gt;where to take children on trips&lt;/p&gt;" /><p>where to take children on trips</p></li>
+  <li><input name="quest_156375" type="radio" value="&lt;p&gt; where to go on a cheap holiday&lt;/p&gt;" /><p> where to go on a cheap holiday</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156376  name: 13. From an advertisement -->
+<div class="question">
+<h3>13. From an advertisement</h3>
+<p>Maybe you need to lose weight or quit smoking, or perhaps you are taking medication for allergies of high cholesterol. Whatever your concerns are, find out about the latest health trends and tips in Modern Health and Fitness Magazine.</p>
+<p><strong>This ad is for people who____________.</strong></p></p>
+<ul class="multichoice">
+  <li><input correct name="quest_156376" type="radio" value="&lt;p&gt;care about their health&lt;/p&gt;" /><p>care about their health</p></li>
+  <li><input name="quest_156376" type="radio" value="&lt;p&gt;are unsure of their condition&lt;/p&gt;" /><p>are unsure of their condition</p></li>
+  <li><input name="quest_156376" type="radio" value="&lt;p&gt;want to find a new doctor&lt;/p&gt;" /><p>want to find a new doctor</p></li>
+  <li><input name="quest_156376" type="radio" value="&lt;p&gt;are studying medicine&lt;/p&gt;" /><p>are studying medicine</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156377  name: 14. A message at work -->
+<div class="question">
+<h3>14. A message at work</h3>
+<p>MAJ Smith, The report you gave me yesterday is unsatisfactory in a number of areas. These are marked in red and I would appreciate if you would give them some attention. Return the report by 1700 hours today with the corrections and I will inform you if any further work is needed.</p>
+<p><strong>MAJ Smith should___________.</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156377" type="radio" value="&lt;p&gt;completely rewrite the report&lt;/p&gt;" /><p>completely rewrite the report</p></li>
+  <li><input name="quest_156377" type="radio" value="&lt;p&gt;mark his corrections in red&lt;/p&gt;" /><p>mark his corrections in red</p></li>
+  <li><input correct name="quest_156377" type="radio" value="&lt;p&gt;make some improvements&lt;/p&gt;" /><p>make some improvements</p></li>
+  <li><input name="quest_156377" type="radio" value="&lt;p&gt;identify the report’s mistakes&lt;/p&gt;" /><p>identify the report’s mistakes</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156378  name: 15. Part of a letter to a friend -->
+<div class="question">
+<h3>15. Part of a letter to a friend</h3>
+<p>You asked me what clothing you should bring when you visit us next week. I don’t know what to tell you. Prague has been unusually cold the last few days. I just put away my heavy coat last week, and now I think I’ll have to get it out again. I was ready for the summer and cold drinks on the patio! But yesterday morning I was out walking the dog and had to go into a restaurant for some hot tea.</p>
+<p><strong>What month is it?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156378" type="radio" value="&lt;p&gt;October&lt;/p&gt;" /><p>October</p></li>
+  <li><input name="quest_156378" type="radio" value="&lt;p&gt;January&lt;/p&gt;" /><p>January</p></li>
+  <li><input correct name="quest_156378" type="radio" value="&lt;p&gt;April&lt;/p&gt;" /><p>April</p></li>
+  <li><input name="quest_156378" type="radio" value="&lt;p&gt;July&lt;/p&gt;" /><p>July</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156379  name: 16. A restaurant review -->
+<div class="question">
+<h3>16. A restaurant review</h3>
+<p>This small and cosy spot serves a nice grilled salmon that won’t leave you looking for more. An international wine list complements a menu that also includes crepes and rabbit fillet, as well as a few pasta selections.</p>
+<p><strong>What is being said about the restaurant?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156379" type="radio" value="&lt;p&gt;Its portions are small.&lt;/p&gt;" /><p>Its portions are small.</p></li>
+  <li><input correct name="quest_156379" type="radio" value="&lt;p&gt;It serves a variety of foods.&lt;/p&gt;" /><p>It serves a variety of foods.</p></li>
+  <li><input name="quest_156379" type="radio" value="&lt;p&gt;Its specialty is fish.&lt;/p&gt;" /><p>Its specialty is fish.</p></li>
+  <li><input name="quest_156379" type="radio" value="&lt;p&gt;It offers too few choices.&lt;/p&gt;" /><p>It offers too few choices.</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156380  name: 17. From a local newspaper -->
+<div class="question">
+<h3>17. From a local newspaper</h3>
+<p>Children at a Salinas elementary school are making their school a safe place with something they call Sure Foot. Students painted feet on sidewalks around their school to remind themselves to stop and look before they cross the street. The school, the city, and the local health department worked on the Sure Foot project together.</p>
+<p><strong>What do the people of the Sure Foot project hope will happen?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156380" type="radio" value="&lt;p&gt;Classrooms will be safer.&lt;/p&gt;" /><p>Classrooms will be safer.</p></li>
+  <li><input correct name="quest_156380" type="radio" value="&lt;p&gt;Children will be more careful.&lt;/p&gt;" /><p>Children will be more careful.</p></li>
+  <li><input name="quest_156380" type="radio" value="&lt;p&gt;The sidewalks will be colourful.&lt;/p&gt;" /><p>The sidewalks will be colourful.</p></li>
+  <li><input name="quest_156380" type="radio" value="&lt;p&gt;The school will be easier to find.&lt;/p&gt;" /><p>The school will be easier to find.</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156381  name: 18. An advertisement in a newspaper -->
+<div class="question">
+<h3>18. An advertisement in a newspaper</h3>
+<p>Study Spanish in Oaxa Nuevo There are no fixed dates for courses – you can begin on any Monday. You can study as long as you wish, but the maximum stay is 2 weeks. If you plan to come for a long course, you will have the opportunity to take the language examination at your level.</p>
+<p><strong>This advertisement says that________________.</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156381" type="radio" value="&lt;p&gt;all courses offered are for beginners only&lt;/p&gt;" /><p>all courses offered are for beginners only</p></li>
+  <li><input name="quest_156381" type="radio" value="&lt;p&gt;students will be required to take an exam&lt;/p&gt;" /><p>students will be required to take an exam</p></li>
+  <li><input name="quest_156381" type="radio" value="&lt;p&gt;the courses start every other Monday&lt;/p&gt;" /><p>the courses start every other Monday</p></li>
+  <li><input correct name="quest_156381" type="radio" value="&lt;p&gt;students can have a flexible schedule&lt;/p&gt;" /><p>students can have a flexible schedule</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156382  name: 19. A letter to a student newspaper -->
+<div class="question">
+<h3>19. A letter to a student newspaper</h3>
+<p>My problem is this: when I read, I like to keep a small dictionary close by. But very often the words I look up are not in it. This is because small dictionaries only contain words that are used a lot. So my idea is a small dictionary that does not have these common words, but only words that are less familiar.                                  Mary Michaels</p>
+<p><strong>What did Mary Michaels say?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156382" type="radio" value="&lt;p&gt;She can’t understand difficult definitions.&lt;/p&gt;" /><p>She can’t understand difficult definitions.</p></li>
+  <li><input name="quest_156382" type="radio" value="&lt;p&gt;She likes to create new words for herself.&lt;/p&gt;" /><p>She likes to create new words for herself.</p></li>
+  <li><input correct name="quest_156382" type="radio" value="&lt;p&gt;She is unhappy with small dictionaries.&lt;/p&gt;" /><p>She is unhappy with small dictionaries.</p></li>
+  <li><input name="quest_156382" type="radio" value="&lt;p&gt;She thinks her reading is too difficult.&lt;/p&gt;" /><p>She thinks her reading is too difficult.</p></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+<!-- question: 156383  name: 20. A magazine article -->
+<div class="question">
+<h3>20. A magazine article</h3>
+<p>A new survey on health indicates that more Europeans are concerned about their health than they were ten years ago. According to the survey, two out of ten adult smokers have quit smoking completely, and five out of ten have cut back for health reasons. However, smoking among teenagers has risen slightly since the last survey.</p>
+<p><strong>According to the article, which statement is true?</strong></p></p>
+<ul class="multichoice">
+  <li><input correct name="quest_156383" type="radio" value="&lt;p&gt;Smoking has become less popular among adults.&lt;/p&gt;" /><p>Smoking has become less popular among adults.</p></li>
+  <li><input name="quest_156383" type="radio" value="&lt;p&gt;Tobacco makers are doing big business in Europe.&lt;/p&gt;" /><p>Tobacco makers are doing big business in Europe.</p></li>
+  <li><input name="quest_156383" type="radio" value="&lt;p&gt;Teenagers are finding it difficult to buy cigarettes.&lt;/p&gt;" /><p>Teenagers are finding it difficult to buy cigarettes.</p></li>
+  <li><input name="quest_156383" type="radio" value="&lt;p&gt;European bans on smoking are unpopular.&lt;/p&gt;" /><p>European bans on smoking are unpopular.</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156384  name: 21. From a magazine -->
+<div class="question">
+<h3>21. From a magazine</h3>
+<p>When moving to a new city, make a list of things to do in order to settle into a new home. Updating a driver’s licence, registering vehicles, and registering to vote need to be on that list. It is important to note that some procedures must be completed before another can be begun. Proof of automobile insurance is required for registration of your car. All of these procedures need to be completed within thirty days of your move.</p>
+<p><strong>What kind of text is this?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156384" type="radio" value="&lt;p&gt;permission&lt;/p&gt;" /><p>permission</p></li>
+  <li><input name="quest_156384" type="radio" value="&lt;p&gt;a request&lt;/p&gt;" /><p>a request</p></li>
+  <li><input correct name="quest_156384" type="radio" value="&lt;p&gt;advice&lt;/p&gt;" /><p>advice</p></li>
+  <li><input name="quest_156384" type="radio" value="&lt;p&gt;a law&lt;/p&gt;" /><p>a law</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156385  name: 22. From a newspaper -->
+<div class="question">
+<h3>22. From a newspaper</h3>
+<p>With relatively inexpensive digital video cameras, more powerful personal computers and sophisticated video editing software, more and more young students are making movies.     A growing number of public schools are offering digital video instruction, and various private trade programs, workshops and film festivals have been created specifically for this younger generation of enthusiasts.</p>
+<p><strong>What does the article say about filmmaking?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156385" type="radio" value="&lt;p&gt;Amateurs are achieving greater success in festivals.&lt;/p&gt;" /><p>Amateurs are achieving greater success in festivals.</p></li>
+  <li><input name="quest_156385" type="radio" value="&lt;p&gt;Movie making keeps students from more serious studies.&lt;/p&gt;" /><p>Movie making keeps students from more serious studies.</p></li>
+  <li><input name="quest_156385" type="radio" value="&lt;p&gt;Today’s youth is able to master more complex problems.&lt;/p&gt;" /><p>Today’s youth is able to master more complex problems.</p></li>
+  <li><input correct name="quest_156385" type="radio" value="&lt;p&gt;Technology has made filmmaking commonplace in school.&lt;/p&gt;" /><p>Technology has made filmmaking commonplace in school.</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156386  name: 23. An ad in a newspaper -->
+<div class="question">
+<h3>23. An ad in a newspaper</h3>
+<p>COOK REAL AND PROPER ITALIAN FOOD! Professional Italian chef, qualified and experienced teacher teaches or assists you during preparation of Italian cookery and pastry in the comfort of your own kitchen. ₤15 per hour Call Lorenzo 079 860 413 41</p>
+<p><strong>This advertisement tells you about____________.</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156386" type="radio" value="&lt;p&gt;a new Italian restaurant&lt;/p&gt;" /><p>a new Italian restaurant</p></li>
+  <li><input name="quest_156386" type="radio" value="&lt;p&gt;a book of Italian recipes&lt;/p&gt;" /><p>a book of Italian recipes</p></li>
+  <li><input correct name="quest_156386" type="radio" value="&lt;p&gt;a chef offering his services&lt;/p&gt;" /><p>a chef offering his services</p></li>
+  <li><input name="quest_156386" type="radio" value="&lt;p&gt;a vacancy for a qualified chef&lt;/p&gt;" /><p>a vacancy for a qualified chef</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156387  name: 24. From a magazine about pets -->
+<div class="question">
+<h3>24. From a magazine about pets</h3>
+<p>You often see little white dogs with small white-haired women. Or a poodle that has blue eyes just like her owner. The owner also has her hair about the same length as the dog’s ears. They look very much alike. Then there’s the man who’s very like his spaniel. If the dog could talk; if the dog could talk it would probably have a voice like the man.</p>
+<p><strong>What is the message of this text?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156387" type="radio" value="&lt;p&gt;Many people prefer smaller dogs.&lt;/p&gt;" /><p>Many people prefer smaller dogs.</p></li>
+  <li><input correct name="quest_156387" type="radio" value="&lt;p&gt;Dogs often look like their masters.&lt;/p&gt;" /><p>Dogs often look like their masters.</p></li>
+  <li><input name="quest_156387" type="radio" value="&lt;p&gt;Dogs are liked for being so sociable.&lt;/p&gt;" /><p>Dogs are liked for being so sociable.</p></li>
+  <li><input name="quest_156387" type="radio" value="&lt;p&gt;Various dogs have similar characters.&lt;/p&gt;" /><p>Various dogs have similar characters.</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156388  name: 25. Information given in program credits -->
+<div class="question">
+<h3>25. Information given in program credits</h3>
+<p>All characters and events depicted herein are fictional. Any resemblance to actual persons, living or dead, or to real events, is purely co-incidental.</p>
+<p><strong>After which type of television program might you see this message?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156388" type="radio" value="&lt;p&gt;nature program&lt;/p&gt;" /><p>nature program</p></li>
+  <li><input correct name="quest_156388" type="radio" value="&lt;p&gt;action film&lt;/p&gt;" /><p>action film</p></li>
+  <li><input name="quest_156388" type="radio" value="&lt;p&gt;documentary&lt;/p&gt;" /><p>documentary</p></li>
+  <li><input name="quest_156388" type="radio" value="&lt;p&gt;game show&lt;/p&gt;" /><p>game show</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156389  name: 26. A magazine advertisement -->
+<div class="question">
+<h3>26. A magazine advertisement</h3>
+<p>This machine not only tells you how much you weigh, it also measures the amount of your body fat. This is generally considered a more accurate indication of your state of health and fitness.</p>
+<p><strong>The product helps you to ________________.</strong></p></p>
+<ul class="multichoice">
+  <li><input correct name="quest_156389" type="radio" value="&lt;p&gt;get a better picture of your health&lt;/p&gt;" /><p>get a better picture of your health</p></li>
+  <li><input name="quest_156389" type="radio" value="&lt;p&gt;master a new type of exercise&lt;/p&gt;" /><p>master a new type of exercise</p></li>
+  <li><input name="quest_156389" type="radio" value="&lt;p&gt;cut down on your weight&lt;/p&gt;" /><p>cut down on your weight</p></li>
+  <li><input name="quest_156389" type="radio" value="&lt;p&gt;gain physical strength&lt;/p&gt;" /><p>gain physical strength</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156390  name: 27. A notice in a newspaper -->
+<div class="question">
+<h3>27. A notice in a newspaper</h3>
+<p>Many of the 250,000 American soldiers serving around the world won’t be home for the holidays. USA Today would like to publish your messages to these men and women of our armed forces. We hope relatives will tell us what they miss most about service members and that veterans will offer advice on spending holidays far from the family. Please send messages to: e&#100;&#105;&#116;&#111;r&#64;us&#97;&#116;&#111;&#100;&#97;&#121;&#46;c&#111;m or fax letters to 703-854-2053. Non-returnable photos may also be sent.</p>
+<p><strong>What is the reason for this notice?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156390" type="radio" value="&lt;p&gt;to promote a national contest&lt;/p&gt;" /><p>to promote a national contest</p></li>
+  <li><input name="quest_156390" type="radio" value="&lt;p&gt;to search for missing soldiers&lt;/p&gt;" /><p>to search for missing soldiers</p></li>
+  <li><input name="quest_156390" type="radio" value="&lt;p&gt;to increase awareness of wars&lt;/p&gt;" /><p>to increase awareness of wars</p></li>
+  <li><input correct name="quest_156390" type="radio" value="&lt;p&gt;to offer a service to the public&lt;/p&gt;" /><p>to offer a service to the public</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156391  name: 28. From a popular health magazine -->
+<div class="question">
+<h3>28. From a popular health magazine</h3>
+<p>After learning of the issue of toxin levels in certain fish, I had reason to become interested in the subject. Four weeks ago, I developed joint, muscle and bone pain, slight hair loss and some memory trouble. I had no idea what was causing the problems, but I’d eaten a great deal of tuna and other ocean fish to improve my overall health. When I ran out of fish and neglected to purchase more, my symptoms disappeared. Now I’m done eating certain fish for a while.</p>
+<p><strong>What is the author discussing?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156391" type="radio" value="&lt;p&gt;his preference for fish in restaurants&lt;/p&gt;" /><p>his preference for fish in restaurants</p></li>
+  <li><input name="quest_156391" type="radio" value="&lt;p&gt;his need for a variety of fish in his diet&lt;/p&gt;" /><p>his need for a variety of fish in his diet</p></li>
+  <li><input name="quest_156391" type="radio" value="&lt;p&gt;his injuries caused by a fishing accident&lt;/p&gt;" /><p>his injuries caused by a fishing accident</p></li>
+  <li><input correct name="quest_156391" type="radio" value="&lt;p&gt;his health problems caused by eating fish&lt;/p&gt;" /><p>his health problems caused by eating fish</p></li>
+</ul>
+</div>
+
+
+
+<!-- question: 156392  name: 29. From a local newspaper -->
+<div class="question">
+<h3>29. From a local newspaper</h3>
+<p>Congratulations on your forthcoming marriage! We are delighted that you are considering The Balmer Lawn as a venue for your wedding. Situated in the very heart of the New Forest, it is the perfect location for your special day. May we take this opportunity to invite you to our Wedding Fair this Sunday? This is your chance to view our facilities, gain extra discounts from local wedding suppliers and to discuss your wedding plans with our wedding and banqueting coordinators.</p>
+<p><strong>What type of text is this?</strong></p></p>
+<ul class="multichoice">
+  <li><input name="quest_156392" type="radio" value="&lt;p&gt;a card with wedding wishes&lt;/p&gt;" /><p>a card with wedding wishes</p></li>
+  <li><input correct name="quest_156392" type="radio" value="&lt;p&gt;an ad for a wedding place&lt;/p&gt;" /><p>an ad for a wedding place</p></li>
+  <li><input name="quest_156392" type="radio" value="&lt;p&gt;a dating service promotion&lt;/p&gt;" /><p>a dating service promotion</p></li>
+  <li><input name="quest_156392" type="radio" value="&lt;p&gt;an invitation to a wedding&lt;/p&gt;" /><p>an invitation to a wedding</p></li>
+</ul>
+</div>
+
+
+<!-- question: 156393  name: 30. A human interest story -->
+<div class="question">
+<h3>30. A human interest story</h3>
+<p>Lydia Nash, a student from Cambridge University, won ₤16,000 in a lottery, but gave the money to an orphanage in Thailand. She had been there for a gap year between school and university, and saw the terrible conditions the children lived in. Her father said that her conduct delighted him and made him feel proud, but he was not really surprised. Lydia’s visit to the orphanage had deeply affected her.</p>
+<p><strong>The girl’s act is presented as __________.</strong></p></p>
+<ul class="multichoice">
+  <li><input correct name="quest_156393" type="radio" value="&lt;p&gt;generous&lt;/p&gt;" /><p>generous</p></li>
+  <li><input name="quest_156393" type="radio" value="&lt;p&gt;thoughtless&lt;/p&gt;" /><p>thoughtless</p></li>
+  <li><input name="quest_156393" type="radio" value="&lt;p&gt;involuntary&lt;/p&gt;" /><p>involuntary</p></li>
+  <li><input name="quest_156393" type="radio" value="&lt;p&gt;economical&lt;/p&gt;" /><p>economical</p></li>
+</ul>
+</div>
+
+<p class="submit">
+  <input class="btn btn-primary" type="submit" />
+</p>
+</form>
+</body>
+</html>
