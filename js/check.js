@@ -10,7 +10,6 @@ $(document).ready(function () {
 	$(":submit").on('click', function (e) {
 		e.preventDefault();
 		$(":submit").prop('disabled', 'true');
-		$('li').removeClass('alert-danger alert-success');
 		check_answers();
 	});
 
