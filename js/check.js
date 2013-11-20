@@ -4,21 +4,22 @@ $(document).ready(function () {
 		until: "+45m",
 		format: "MS",
 		onExpiry: function () {
-			$(":submit").prop('disabled', 'true');
+			$("#CheckQuiz").prop('disabled', 'true');
 			check_answers();
 		}});
 	//submit event
-	$(":submit").on('click', function (e) {
+	$("#CheckQuiz").on('click', function (e) {
 		e.preventDefault();
-		$(":submit").prop('disabled', 'true');
+		$("#CheckQuiz").prop('disabled', 'true');
 		check_answers();
 	});
 
 	//checking function
 	function check_answers() {
-		$(":checked").each(function () {
-			_this = $(this);
-			if(_this.attr('correct')!= undefined) {
+		$("#Quiz input[type='radio']:checked").each(function () {
+			var _this = $(this);
+			var attr = _this.attr('correct');
+			if(typeof attr !== 'undefined' && attr !== false) {
 				_this.closest('li').addClass('alert-success');
 			} else {
 				_this.closest('li').addClass('alert-danger');
